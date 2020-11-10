@@ -1,0 +1,6 @@
+en:
+  layouts:
+    application:
+      english: "Tiếng anh"
+      vietnamese: "Tiếng việt"
+      store: "Cửa hàng"
