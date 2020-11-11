@@ -1,6 +1,40 @@
-en:
+vi:
+  base:
+    cart: "Giỏ hàng"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    logout: "Đăng xuất"
+    product: "Sản phẩm"
+    brand: "Nhãn hiệu"
+    size: "Kích thước"
+    order: "Đơn hàng"
+    account: "Tài khoản"
   layouts:
     application:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
       store: "Cửa hàng"
+  admin:
+    static_pages:
+      home:
+        title: "Trang Chủ"
+    layouts:
+      header:
+        search: "Tìm kiếm"
+        notification: "7"
+        message: "3"
+        user_name: "Admin"
+      left_menu:
+        shop: "TV Shop"
+        product_management: "Quản lý sản phẩm"
+        business_management: "Quản lý kinh doanh"
+        statistical: "Thống kê"
+        account_management: "Quản lý tài khoản"
+  customer:
+    static_pages:
+      home:
+        title: "Trang Chủ"
+      about:
+        title: "Giới thiệu"
+      contact:
+        title: "Liên hệ"
