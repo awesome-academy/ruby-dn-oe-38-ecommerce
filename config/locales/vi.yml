@@ -1,26 +1,47 @@
 vi:
   base:
+    address: "Địa chỉ"
+    phone: "Điện thoại"
     cart: "Giỏ hàng"
     profile: "Hồ sơ"
+    search: "Tìm kiếm"
     setting: "Cài đặt"
+    signup: "Đăng ký"
+    login: "Đăng nhập"
     logout: "Đăng xuất"
+    cart: "Giỏ hàng"
     product: "Sản phẩm"
     brand: "Nhãn hiệu"
+    brands: "Nhãn hiệu"
     size: "Kích thước"
     order: "Đơn hàng"
     account: "Tài khoản"
+    home: "Trang chủ"
+    about: "Giới thiệu"
+    contact: "Liên hệ"
+    feedback: "Phản hồi"
   layouts:
     application:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
       store: "Cửa hàng"
+    header:
+      logo: "logo"
+    footer:
+      info: "Thông tin"
+      shop_address: "123 Nguyễn Tất Thành, Đà Nẵng, Việt Nam"
+      latest_news: "Tin mới nhất"
+      news_1: "The company is growing"
+      news_2: "High-quality products"
+      shop_phone: "0999123789"
+      follow_us: "follow ngay:"
+      copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
   admin:
     static_pages:
       home:
         title: "Trang Chủ"
     layouts:
       header:
-        search: "Tìm kiếm"
         notification: "7"
         message: "3"
         user_name: "Admin"
@@ -30,11 +51,10 @@ vi:
         business_management: "Quản lý kinh doanh"
         statistical: "Thống kê"
         account_management: "Quản lý tài khoản"
-  customer:
-    static_pages:
-      home:
-        title: "Trang Chủ"
-      about:
-        title: "Giới thiệu"
-      contact:
-        title: "Liên hệ"
+  static_pages:
+    home:
+      title: "Trang Chủ"
+    about:
+      title: "Giới thiệu"
+    contact:
+      title: "Liên hệ"

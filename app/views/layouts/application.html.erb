@@ -6,6 +6,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "custom", media: "all", "data-turbolinks-track": "reload" %>
+    <%= stylesheet_link_tag "customer_style", media: "all", "data-turbolinks-track": "reload" %>
     <%= stylesheet_link_tag "sb-admin-2.min", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
   </head>
@@ -15,7 +16,13 @@
       <%= link_to t(".english"), locale: :en %>
       <%= link_to t(".vietnamese"), locale: :vi %>
     </div>
-    <%= render "admin/layouts/main"%>
+
+    <!-- open to use the admin layout -->
+    <!-- <%= render "admin/layouts/main" %> -->
+
+    <!-- open to use the customer layout -->
+    <%= render "layouts/main" %>
+
     <%= debug(params) if Rails.env.development? %>
   </body>
 </html>
