@@ -1,0 +1,6 @@
+en:
+  layouts:
+    application:
+      english: "English"
+      vietnamese: "Vietnamese"
+      store: "Store"
