@@ -1,26 +1,47 @@
 en:
   base:
+    address: "Address"
+    phone: "phone"
     cart: "Cart"
     profile: "Profile"
+    search: "Search"
     setting: "Setting"
+    signup: "Signup"
+    login: "Login"
     logout: "Logout"
+    cart: "Cart"
     product: "Product"
     brand: "Brand"
+    brands: "Brands"
     size: "Size"
     order: "Oder"
     account: "Account"
+    home: "Home"
+    about: "about"
+    contact: "Contact"
+    feedback: "Feedback"
   layouts:
     application:
       english: "English"
       vietnamese: "Vietnamese"
       store: "Store"
+    header:
+      logo: "logo"
+    footer:
+      info: "Our info"
+      shop_address: "123 nguyen tat thanh, Da nang, Viet Nam"
+      latest_news: "Latest news"
+      news_1: "The company is growing"
+      news_2: "High-quality products"
+      shop_phone: "0999123789"
+      follow_us: "Follow Us:"
+      copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
   admin:
     static_pages:
       home:
         title: "Admin"
     layouts:
       header:
-        search: "Search"
         notification: "7"
         message: "3"
         user_name: "Admin"
@@ -30,11 +51,10 @@ en:
         business_management: "Business management"
         statistical: "Statistical"
         account_management: "Account management"
-  customer:
-    static_pages:
-      home:
-        title: "Home"
-      about:
-        title: "About"
-      contact:
-        title: "Contact"
+  static_pages:
+    home:
+      title: "Home"
+    about:
+      title: "About"
+    contact:
+      title: "Contact"

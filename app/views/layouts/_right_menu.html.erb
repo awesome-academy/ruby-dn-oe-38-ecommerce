@@ -1,0 +1,8 @@
+<div class="content-sidebar">
+  <h4><%= t "base.brands" %></h4>
+    <ul>
+      <% get_list_brand.each do |f| %>
+        <li><%= link_to f.name, "#" %></li>
+      <% end %>
+    </ul>
+</div>

@@ -1,0 +1,36 @@
+<div class="wrap">
+  <div class="header">
+    <div class="search-bar">
+      <form>
+        <input type="text">
+        <input type="submit" value= "<%= t("base.search") %>" />
+      </form>
+    </div>
+    <div class="clear"> </div>
+    <div class="header-top-nav">
+      <ul>
+        <li><%= link_to t("base.signup"), "#" %></li>
+        <li><%= link_to t("base.login"), "#" %></li>
+        <li><%= link_to t("base.account"), "#" %></li>
+        <li><%= link_to t("base.cart"), "#" %></li>
+      </ul>
+    </div>
+    <div class="clear"> </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="top-header">
+  <div class="wrap">
+    <div class="logo">
+    <%= link_to image_tag("customer/logo.png", alt: t(".logo")),root_path %>
+    </div>
+    <div class="top-nav">
+      <ul>
+        <li><%= link_to t("base.home"), root_path %></li>
+        <li><%= link_to t("base.about"), about_path %></li>
+        <li><%= link_to t("base.contact"), contact_path %></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
