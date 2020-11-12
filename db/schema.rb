@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_11_034315) do
+ActiveRecord::Schema.define(version: 2020_11_12_133302) do
 
   create_table "brands", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
@@ -54,7 +54,7 @@ ActiveRecord::Schema.define(version: 2020_11_11_034315) do
   create_table "products", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.float "price"
-    t.text "descibe"
+    t.text "describe"
     t.bigint "brand_id", null: false
     t.bigint "size_id", null: false
     t.datetime "created_at", precision: 6, null: false
@@ -87,6 +87,7 @@ ActiveRecord::Schema.define(version: 2020_11_11_034315) do
     t.integer "role", default: 3, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "password_digest"
   end
 
   add_foreign_key "comments", "products"
