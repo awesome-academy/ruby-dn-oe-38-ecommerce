@@ -1,6 +1,40 @@
 en:
+  base:
+    cart: "Cart"
+    profile: "Profile"
+    setting: "Setting"
+    logout: "Logout"
+    product: "Product"
+    brand: "Brand"
+    size: "Size"
+    order: "Oder"
+    account: "Account"
   layouts:
     application:
       english: "English"
       vietnamese: "Vietnamese"
       store: "Store"
+  admin:
+    static_pages:
+      home:
+        title: "Admin"
+    layouts:
+      header:
+        search: "Search"
+        notification: "7"
+        message: "3"
+        user_name: "Admin"
+      left_menu:
+        shop: "TV Shop"
+        product_management: "Product Management"
+        business_management: "Business management"
+        statistical: "Statistical"
+        account_management: "Account management"
+  customer:
+    static_pages:
+      home:
+        title: "Home"
+      about:
+        title: "About"
+      contact:
+        title: "Contact"
