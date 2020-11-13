@@ -92,6 +92,14 @@ en:
     brand_created: "Branding successfully"
     brand_not_found: "brand not found"
     brand_updated: "Updated successfully"
+  number:
+    currency:
+      format:
+        unit: "$"
+        delimiter: ","
+        separator: "."
+        precision: 2
+        format: "%u%n"
   product:
     title: "Product"
     new_product: "Create New Product"
@@ -102,11 +110,10 @@ en:
     edit: "Edit"
     destroy: "Destroy"
     confirm_destroy: "Are you sure?"
-  number:
-    currency:
-      format:
-        unit: "$"
-        delimiter: ","
-        separator: "."
-        precision: 2
-        format: "%u%n"
+    create_notification_success: "Create new product success"
+    create_notification_fail: "Create new product fail"
+    submit: "Submit"
+    back: "Back to product list"
+    brand: "Brand"
+    size: "Size"
+    image: "Picture"

@@ -92,6 +92,14 @@ vi:
     brand_created: "Thêm nhãn hiệu thành công"
     brand_not_found: "Không tìm thấy nhãn hiệu"
     brand_updated: "Cập nhật thành công"
+  number:
+    currency:
+      format:
+        unit: "đ"
+        delimiter: ","
+        separator: "."
+        precision: 0
+        format: "%u%n"
   product:
     title: "Sản Phẩm"
     new_product: "Tạo mới sản phẩm"
@@ -102,11 +110,10 @@ vi:
     edit: "Chỉnh sửa"
     destroy: "Hủy bỏ"
     confirm_destroy: "Chắc chắn xóa ?"
-  number:
-    currency:
-      format:
-        unit: "đ"
-        delimiter: ","
-        separator: "."
-        precision: 0
-        format: "%u%n"
+    create_notification_success: "Tạo mới sản phẩm thành công"
+    create_notification_fail: "Tạo mới sản phẩm thất bại"
+    submit: "Tạo mới"
+    back: "Quay lại danh sách"
+    brand: "Nhãn hiệu"
+    size: "Kích thước"
+    image: "Hình ảnh"

@@ -38,8 +38,10 @@ group :test do
   gem "webdrivers"
 end
 
+gem "active_storage_validations", "0.8.2"
 gem "bootstrap-kaminari-views"
 gem "config"
+gem "image_processing", "1.9.3"
 gem "jquery-rails"
 gem "kaminari"
 gem "ransack"
