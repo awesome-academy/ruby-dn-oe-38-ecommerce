@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     namespace :admin do
       get "/home", to: "static_pages#home"
       resources :brands, except: [:destroy, :show]
-      resources :products, only: [:index, :new, :create]
+      resources :products, except: [:destroy, :show]
     end
   end
 end
