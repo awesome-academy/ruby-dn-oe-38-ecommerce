@@ -17,3 +17,57 @@
   margin-top: 20px;
   @include box_sizing;
 }
+
+/* pagination */
+.pagination {
+  span {
+    a {
+      position: relative;
+      display: block;
+      padding: 0.5rem 0.75rem;
+      margin-left: -1px;
+      line-height: 1.25;
+      color: blue;
+      background-color: white;
+      border: 1px solid lightgray;
+      &:hover {
+        z-index: 2;
+        color: #224abe;
+        text-decoration: none;
+        background-color: lightgray;
+        border-color: lightgray;
+      }
+      &:focus {
+        z-index: 3;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem lightgray;
+      }
+    }
+    &:first-child {
+      a {
+      margin-left: 0;
+      border-top-left-radius: 0.35rem;
+      border-bottom-left-radius: 0.35rem;
+      }
+    }
+    &:last-child {
+      a {
+      border-top-right-radius: 0.35rem;
+      border-bottom-right-radius: 0.35rem;
+      }
+    }
+  }
+  .page.current {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    z-index: 3;
+    color: red;
+    border: 1px solid  red;
+  }
+  .page.gap {
+    display: none;
+  }
+}

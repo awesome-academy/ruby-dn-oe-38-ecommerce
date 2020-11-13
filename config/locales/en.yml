@@ -6,6 +6,7 @@ en:
     profile: "Profile"
     search: "Search"
     setting: "Setting"
+    name: "Name"
     signup: "Signup"
     login: "Login"
     logout: "Logout"
@@ -20,6 +21,11 @@ en:
     about: "about"
     contact: "Contact"
     feedback: "Feedback"
+    new: "New"
+    index: "Index"
+    action: "Action"
+    add: "Add"
+    edit: "Edit"
   layouts:
     application:
       english: "English"
@@ -36,6 +42,10 @@ en:
       shop_phone: "0999123789"
       follow_us: "Follow Us:"
       copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
+  shared:
+    error_messages:
+      content_1: "The form contains "
+      content_2: "errors"
   admin:
     static_pages:
       home:
@@ -58,3 +68,5 @@ en:
       title: "About"
     contact:
       title: "Contact"
+  brands:
+    empty_brands: "Empty brands"
