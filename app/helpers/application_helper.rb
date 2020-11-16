@@ -7,4 +7,8 @@ module ApplicationHelper
   def get_list_brand
     @brands = Brand.order_name_asc
   end
+
+  def full_title page_title = "", base_title = ""
+    page_title.blank? ? base_title : "#{page_title} | #{base_title}"
+  end
 end

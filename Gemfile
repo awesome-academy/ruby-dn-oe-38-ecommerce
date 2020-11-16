@@ -5,6 +5,8 @@ ruby "2.7.1"
 
 gem "bcrypt"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "bootstrap-sass", "3.4.1"
+gem "config"
 gem "faker"
 gem "font-awesome-sass", "~> 5.15.1"
 gem "jbuilder", "~> 2.7"
@@ -39,7 +41,6 @@ group :test do
 end
 
 gem "bootstrap-kaminari-views"
-gem "config"
 gem "jquery-rails"
 gem "kaminari"
 gem "ransack"

@@ -1,4 +1,27 @@
 en:
+  controllers:
+    users_controller:
+      user_not_found: "User not found"
+      welcome: "Welcome to TV shop"
+  users:
+    show:
+      base: "Information Account"
+    new:
+      button_create: "Sign up"
+      title: "Sign up"
+      base: "Register account"
+      h1_tag: "Sign up"
+    _form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm_password: "Confirmation"
+      phone: "Phone"
+      address: "Address"
+  shared:
+    _error_messages:
+      content: "The form contain"
+      error: "error"
   base:
     address: "Address"
     phone: "phone"

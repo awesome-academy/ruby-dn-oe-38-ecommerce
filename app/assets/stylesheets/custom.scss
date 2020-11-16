@@ -1,6 +1,10 @@
-@import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$gray-form: #bbb;
+$red: red;
 
 /* mixins, variables, etc. */
 @mixin box_sizing {
@@ -70,4 +74,31 @@
   .page.gap {
     display: none;
   }
+}
+
+/* forms */
+input, textarea, select, .uneditable-input {
+  border: 1px solid $gray-form;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
+}
+input {
+  height: auto !important;
+}
+#error_explanation {
+  color: $red;
+  ul {
+  color: $red;
+  margin: 0 0 30px;
+  }
+}
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+  color: $state-danger-text;
+  }
+}
+.text-align-center{
+  text-align: center;
 }

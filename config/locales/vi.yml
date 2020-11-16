@@ -1,4 +1,27 @@
 vi:
+  controllers:
+    users_controller:
+      user_not_found: "Người dùng không tìm thấy"
+      welcome: "Chào mừng đến với cửa hàng bán tivi"
+  users:
+    show:
+      base: "Thông tin tài khoản"
+    new:
+      button_create: "Đăng kí"
+      title: "Đăng kí"
+      base: "Đăng kí thành viên"
+      h1_tag: "Đăng kí thành viên"
+    _form:
+      name: "Tên người dùng"
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      confirm_password: "Xác nhận lại mật khẩu"
+      phone: "Số điện thoại"
+      address: "Địa chỉ"
+  shared:
+    _error_messages:
+      content: "Phần đăng kí của bạn có"
+      error: "lỗi"
   base:
     address: "Địa chỉ"
     phone: "Điện thoại"

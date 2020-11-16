@@ -1,3 +1,7 @@
 paging:
   p_1: 1
   p_10: 10
+minimum_password: 6
+maximum_email: 255
+maximum_user: 50
+maximum_phone: 11

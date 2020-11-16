@@ -1,0 +1,6 @@
+<% provide :title, @user.name %>
+<% provide :base, t(".base") %>
+<h1 class="text-align-center">
+  <%= gravatar_for @user %>
+  <%= @user.name %>
+</h1>
