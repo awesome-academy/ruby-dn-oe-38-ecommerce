@@ -11,6 +11,7 @@ gem "jbuilder", "~> 2.7"
 gem "mysql2", "~> 0.4.4"
 gem "puma", "~> 4.1"
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
+gem "rails-i18n"
 gem "sass-rails", ">= 6"
 gem "sqlite3", "~> 1.4"
 gem "turbolinks", "~> 5"
@@ -37,4 +38,9 @@ group :test do
   gem "webdrivers"
 end
 
+gem "bootstrap-kaminari-views"
+gem "config"
+gem "jquery-rails"
+gem "kaminari"
+gem "ransack"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

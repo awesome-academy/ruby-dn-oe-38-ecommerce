@@ -6,6 +6,7 @@ vi:
     profile: "Hồ sơ"
     search: "Tìm kiếm"
     setting: "Cài đặt"
+    name: "Tên"
     signup: "Đăng ký"
     login: "Đăng nhập"
     logout: "Đăng xuất"
@@ -20,6 +21,11 @@ vi:
     about: "Giới thiệu"
     contact: "Liên hệ"
     feedback: "Phản hồi"
+    new: "Mới"
+    index: "STT"
+    action: "Thao tác"
+    add: "Thêm"
+    edit: "Sửa"
   layouts:
     application:
       english: "Tiếng anh"
@@ -36,6 +42,10 @@ vi:
       shop_phone: "0999123789"
       follow_us: "follow ngay:"
       copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
+  shared:
+    error_messages:
+      content_1: "Form có "
+      content_2: "lỗi"
   admin:
     static_pages:
       home:
@@ -58,3 +68,5 @@ vi:
       title: "Giới thiệu"
     contact:
       title: "Liên hệ"
+  brands:
+    empty_brands: "Không có nhãn hiệu nào"
