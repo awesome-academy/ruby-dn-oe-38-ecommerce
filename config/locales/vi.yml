@@ -26,6 +26,9 @@ vi:
     action: "Thao tác"
     add: "Thêm"
     edit: "Sửa"
+    you_sure: "Bạn chắc chứ?"
+    delete: "Xóa"
+    divide: " | "
   layouts:
     application:
       english: "Tiếng anh"
@@ -44,8 +47,8 @@ vi:
       copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
   shared:
     error_messages:
-      content_1: "Form có "
-      content_2: "lỗi"
+      content: "Form có %{href_1}"
+      erros: "lỗi"
   admin:
     static_pages:
       home:
@@ -70,3 +73,9 @@ vi:
       title: "Liên hệ"
   brands:
     empty_brands: "Không có nhãn hiệu nào"
+    brand_created: "Thêm nhãn hiệu thành công"
+    deleting_warning: "Tồn tại sản phẩm thuộc nhãn hiệu này"
+    deleted: "Xóa nhãn hiệu thành công"
+    delete_fail:  "Xóa nhãn hiệu thất bại"
+    brand_not_found: "Không tìm thấy nhãn hiệu"
+    brand_updated: "Cập nhật thành công"

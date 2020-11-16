@@ -26,6 +26,9 @@ en:
     action: "Action"
     add: "Add"
     edit: "Edit"
+    you_sure: "Are you sure?"
+    delete: "Delete"
+    divide: " | "
   layouts:
     application:
       english: "English"
@@ -44,8 +47,8 @@ en:
       copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
   shared:
     error_messages:
-      content_1: "The form contains "
-      content_2: "errors"
+      content: "The form contains %{href_1}"
+      erros: "errors"
   admin:
     static_pages:
       home:
@@ -70,3 +73,9 @@ en:
       title: "Contact"
   brands:
     empty_brands: "Empty brands"
+    brand_created: "Branding successfully"
+    deleting_warning: "Exist this brand product"
+    deleted: "Brand deleted successfully"
+    delete_fail: "delete fail"
+    brand_not_found: "brand not found"
+    brand_updated: "Updated successfully"
