@@ -2,6 +2,9 @@ vi:
   controllers:
     pages_controller:
       empty: "Không có nội dung!"
+    admin_controller:
+      request_login: "Bạn chưa đăng nhập"
+      not_have_access: "Bạn không có quyền truy cập"
   pages:
     search:
       result: "Kết quả tìm kiếm của từ"
@@ -16,6 +19,8 @@ vi:
     search: "Tìm kiếm"
     setting: "Cài đặt"
     name: "Tên"
+    email: "Email"
+    password: "Mật khẩu"
     signup: "Đăng ký"
     login: "Đăng nhập"
     logout: "Đăng xuất"
@@ -73,6 +78,8 @@ vi:
         business_management: "Quản lý kinh doanh"
         statistical: "Thống kê"
         account_management: "Quản lý tài khoản"
+  sessions:
+    login_fail: "Email hoặc mật khẩu không đúng"
   static_pages:
     home:
       title: "Trang Chủ"
