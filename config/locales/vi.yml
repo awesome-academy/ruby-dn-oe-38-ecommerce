@@ -70,3 +70,21 @@ vi:
       title: "Liên hệ"
   brands:
     empty_brands: "Không có nhãn hiệu nào"
+  product:
+    title: "Sản Phẩm"
+    new_product: "Tạo mới sản phẩm"
+    name: "Tên sản phẩm"
+    price: "Giá tiền"
+    describe: "Mô tả"
+    show: "Hiển thị"
+    edit: "Chỉnh sửa"
+    destroy: "Hủy bỏ"
+    confirm_destroy: "Chắc chắn xóa ?"
+  number:
+    currency:
+      format:
+        unit: "đ"
+        delimiter: ","
+        separator: "."
+        precision: 0
+        format: "%u%n"

@@ -5,6 +5,7 @@ ruby "2.7.1"
 
 gem "bcrypt"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "bootstrap-will_paginate", "1.0.0"
 gem "faker"
 gem "font-awesome-sass", "~> 5.15.1"
 gem "jbuilder", "~> 2.7"

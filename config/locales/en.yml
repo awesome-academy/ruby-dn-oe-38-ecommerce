@@ -70,3 +70,21 @@ en:
       title: "Contact"
   brands:
     empty_brands: "Empty brands"
+  product:
+    title: "Product"
+    new_product: "Create New Product"
+    name: "Name"
+    price: "Price"
+    describe: "Describe"
+    show: "Show"
+    edit: "Edit"
+    destroy: "Destroy"
+    confirm_destroy: "Are you sure?"
+  number:
+    currency:
+      format:
+        unit: "$"
+        delimiter: ","
+        separator: "."
+        precision: 2
+        format: "%u%n"
