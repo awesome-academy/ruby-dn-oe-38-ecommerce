@@ -83,6 +83,8 @@ en:
   brands:
     empty_brands: "Empty brands"
     brand_created: "Branding successfully"
+    brand_not_found: "brand not found"
+    brand_updated: "Updated successfully"
   product:
     title: "Product"
     new_product: "Create New Product"
