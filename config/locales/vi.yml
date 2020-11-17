@@ -55,8 +55,9 @@ vi:
       copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
   shared:
     error_messages:
-      content_1: "Form có "
-      content_2: "lỗi"
+      error:
+        one: "Form chứa %{count} lỗi"
+        other: "Form chứa %{count} lỗi"
   admin:
     static_pages:
       home:
@@ -81,6 +82,7 @@ vi:
       title: "Liên hệ"
   brands:
     empty_brands: "Không có nhãn hiệu nào"
+    brand_created: "Thêm nhãn hiệu thành công"
   product:
     title: "Sản Phẩm"
     new_product: "Tạo mới sản phẩm"

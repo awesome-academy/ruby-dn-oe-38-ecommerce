@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     get "/about", to: "static_pages#about"
     get "/contact", to: "static_pages#contact"
     get "/search" => "pages#search", :as => "search_page"
-    resources :brands, only: [:index]
+    resources :brands, only: [:index, :new, :create]
     namespace :admin do
       get "/home", to: "static_pages#home"
     end

@@ -55,8 +55,9 @@ en:
       copy: "2013 Mobile Store. All Rights Reserved | Design by Sun*"
   shared:
     error_messages:
-      content_1: "The form contains "
-      content_2: "errors"
+      error:
+        one: "The form contains %{count} error"
+        other: "The form contains %{count} errors"
   admin:
     static_pages:
       home:
@@ -81,6 +82,7 @@ en:
       title: "Contact"
   brands:
     empty_brands: "Empty brands"
+    brand_created: "Branding successfully"
   product:
     title: "Product"
     new_product: "Create New Product"

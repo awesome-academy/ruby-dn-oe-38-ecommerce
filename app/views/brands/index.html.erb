@@ -11,7 +11,7 @@
           </div>
         <% else %>
           <div class="card-body">
-            <%= link_to t("base.new"), "#", class: "btn btn-outline-primary" %>
+            <%= link_to t("base.new"), new_brand_path, class: "btn btn-outline-primary" %>
             <table class="table table-bordered mt-3">
               <thead class=" bg-primary">
                 <tr class="align-middle text-center text-white">
@@ -26,13 +26,9 @@
                     <td><%= create_index params[:page], index, @per_page %></td>
                     <td><%= f.name %></td>
                     <td>
-                      <form class="frm_delete" action="#" method="post">
-                        <div class="m-t-10">
-                          <a href="#"><span class="fas fs-25 fa-edit"></span></a>
-                          <a class="btn_delete m-l-2" href="#" id=""><span class="fas fs-25 fa-trash-alt text-danger"></span>
-                          </a>
-                        </div>
-                      </form>
+                      <div class="m-t-10">
+                        <%= link_to t("base.edit"), "#" %>
+                      </div>
                     </td>
                   </tr>
                 <% end %>
