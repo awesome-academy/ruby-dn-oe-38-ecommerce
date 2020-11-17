@@ -1,4 +1,13 @@
 vi:
+  controllers:
+    pages_controller:
+      empty: "Không có nội dung!"
+  pages:
+    search:
+      result: "Kết quả tìm kiếm của từ"
+      cart: "Thêm vào giỏ hàng"
+      photo: "Ảnh"
+      content: "kết quả"
   base:
     address: "Địa chỉ"
     phone: "Điện thoại"
@@ -33,6 +42,8 @@ vi:
       store: "Cửa hàng"
     header:
       logo: "logo"
+      search: "Tìm kiếm"
+      s_holder: "Tìm kiếm"
     footer:
       info: "Thông tin"
       shop_address: "123 Nguyễn Tất Thành, Đà Nẵng, Việt Nam"

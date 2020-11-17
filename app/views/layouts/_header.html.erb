@@ -1,10 +1,15 @@
 <div class="wrap">
   <div class="header">
     <div class="search-bar">
-      <form>
-        <input type="text">
-        <input type="submit" value= "<%= t("base.search") %>" />
-      </form>
+      <%= form_tag(search_page_path, :method => "get",
+          class: "navbar-form navbar-left") do %>
+        <div class="input-group">
+          <%= search_field_tag :search, params[:search], placeholder: t(".s_holder"), class: "form-control" %>
+          <div class="input-group-btn">
+            <%= button_tag t(".search"), :class => "btn btn-info glyphicon glyphicon-search",:name => nil %>
+          </div>
+        </div>
+      <% end %>
     </div>
     <div class="clear"> </div>
     <div class="header-top-nav">
