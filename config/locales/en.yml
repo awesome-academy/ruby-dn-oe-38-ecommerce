@@ -1,4 +1,13 @@
 en:
+  controllers:
+    pages_controller:
+      empty: "Empty Field!"
+  pages:
+    search:
+      result: "Search results of words"
+      cart: "Add to cart"
+      photo: "Photo"
+      content: "results"
   base:
     address: "Address"
     phone: "phone"
@@ -33,6 +42,8 @@ en:
       store: "Store"
     header:
       logo: "logo"
+      search: "Search"
+      s_holder: "Search"
     footer:
       info: "Our info"
       shop_address: "123 nguyen tat thanh, Da nang, Viet Nam"

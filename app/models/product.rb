@@ -5,4 +5,5 @@ class Product < ApplicationRecord
   scope :order_by_update, ->{order updated_at: :desc}
   delegate :name, to: :brand, prefix: true, allow_nil: true
   delegate :name, to: :size, prefix: true, allow_nil: true
+  scope :search_by_name, ->(key){where("name LIKE ?", "%#{key}%")}
 end
