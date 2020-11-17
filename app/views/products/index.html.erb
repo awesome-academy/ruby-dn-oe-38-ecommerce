@@ -1,13 +1,11 @@
-
 <div class="container">
-  <h4><%= t ".result" %> <b><%= params[:search] %></b>:
-  <%= @count_results.count %> <%= t(".content")%></h4>
-  <% @results.in_groups_of(4, false).each do |group|%>
+  <div class="row title_products"><%= t ".all_product" %></div>
+  <% @products.in_groups_of(4, false).each do |group|%>
     <div class="row">
       <% group.each do |product| %>
         <div class="grid_1_of_4 images_1_of_4 products-info">
           <%= image_tag("", alt: t(".photo")) %>
-          <%= link_to product.name %>
+          <%= link_to product.name, product_path(product.id) %>
           <h3><%= number_to_currency(product.price) %></h3>
           <div class="pl-3 pr-3">
             <p class="bg-danger">
@@ -19,6 +17,6 @@
     </div>
   <% end %>
   <div class="mt-2 ml-4">
-    <%= paginate @results %>
+    <%= paginate @products %>
   </div>
 </div>

@@ -1,0 +1,31 @@
+<div class="clear"></div>
+<div class="wrap">
+  <div class="content mt-3">
+    <div class="content-grids p-2">
+      <div class="detalis-image">
+        <%= image_tag("", alt: t(".photo")) %>
+      </div>
+      <div class="detalis-image-details">
+        <div class="ml-5">
+          <h3><%= @product.name %></h3>
+          <p><b><%= t ".price" %>: </b><span><%= number_to_currency(@product.price) %></span></p>
+          <p><%= t ".description" %>: <%= @product.describe %></p>
+          <%= link_to t(".cart"), "", class: "button-cart" %>
+        </div>
+        <div class="clear"> </div>
+        <div class="ml-5 mt-2 share" id="small-image">
+          <ul>
+            <li>
+              <%= link_to image_tag("https://vectormienphi.com/wp-content/uploads/2019/10/md_5a9794da1b10e-600x600.png", alt: "facebook"),"#" %>
+            </li>
+            <li>
+              <%= link_to image_tag("https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Twitter_NEW.png", alt: "twitter"),"#" %>
+            </li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+<div class="clear"></div>
+</div>

@@ -5,12 +5,24 @@ en:
     admin_controller:
       request_login: "You are not logged in"
       not_have_access: "You do not have access"
+    products_controller:
+      product_not_found: "Product not found"
   pages:
     search:
       result: "Search results of words"
       cart: "Add to cart"
       photo: "Photo"
       content: "results"
+  products:
+    index:
+      photo: "Photo"
+      cart: "Add to cart"
+      all_product: "All products"
+    show:
+      cart: "Add to cart"
+      price: "Price"
+      description: "Description"
+      photo: "Photo"
   base:
     address: "Address"
     phone: "phone"
