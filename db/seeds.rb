@@ -34,7 +34,15 @@ User.create!(name: "Nguyen Van B",
   password: "123456",
   password_confirmation: "123456")
 
-30.times do |n|
+User.create!(name: "Nguyen Van C",
+  email: "nguyenvanc@gmail.com",
+  address: "Ha Noi",
+  phone: "0123456789",
+  role: 3,
+  password: "123456",
+  password_confirmation: "123456")
+
+10.times do |n|
   User.create!(
     name: Faker::FunnyName.name,
     email: "example#{n+1}@gmail.com",

@@ -2,3 +2,6 @@ paging:
   p_1: 1
   p_10: 10
   p_8: 8
+brand:
+  name:
+    max_length: 20
