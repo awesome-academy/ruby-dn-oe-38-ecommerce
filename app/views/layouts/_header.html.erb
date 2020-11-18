@@ -14,10 +14,23 @@
     <div class="clear"> </div>
     <div class="header-top-nav">
       <ul>
-        <li><%= link_to t("base.signup"), "#" %></li>
-        <li><%= link_to t("base.login"), "#" %></li>
-        <li><%= link_to t("base.account"), "#" %></li>
-        <li><%= link_to t("base.cart"), "#" %></li>
+        <% if logged_in? %>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= t "base.account" %><b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("base.profile"), "#" %></li>
+              <li>
+                <%= link_to t("base.logout"), logout_path, method: "delete" %>
+              </li>
+            </ul>
+          </li>
+          <li><%= link_to t("base.cart"), "#" %></li>
+        <% else %>
+          <li><%= link_to t("base.signup"), "#" %></li>
+          <li><%= link_to t("base.login"), login_path %></li>
+        <% end %>
       </ul>
     </div>
     <div class="clear"> </div>

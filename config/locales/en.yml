@@ -2,6 +2,9 @@ en:
   controllers:
     pages_controller:
       empty: "Empty Field!"
+    admin_controller:
+      request_login: "You are not logged in"
+      not_have_access: "You do not have access"
   pages:
     search:
       result: "Search results of words"
@@ -16,6 +19,8 @@ en:
     search: "Search"
     setting: "Setting"
     name: "Name"
+    email: "Email"
+    password: "Password"
     signup: "Signup"
     login: "Login"
     logout: "Logout"
@@ -73,6 +78,8 @@ en:
         business_management: "Business management"
         statistical: "Statistical"
         account_management: "Account management"
+  sessions:
+    login_fail: "Email or password is incorrect"
   static_pages:
     home:
       title: "Home"
