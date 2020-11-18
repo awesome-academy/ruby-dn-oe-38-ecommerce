@@ -11,7 +11,7 @@
           </div>
         <% else %>
           <div class="card-body">
-            <%= link_to t("base.new"), new_brand_path, class: "btn btn-outline-primary" %>
+            <%= link_to t("base.new"), new_admin_brand_path, class: "btn btn-outline-primary" %>
             <table class="table table-bordered mt-3">
               <thead class=" bg-primary">
                 <tr class="align-middle text-center text-white">
@@ -27,7 +27,7 @@
                     <td><%= f.name %></td>
                     <td>
                       <div class="m-t-10">
-                        <%= link_to t("base.edit"), edit_brand_path(f) %>
+                        <%= link_to t("base.edit"), edit_admin_brand_path(f) %>
                       </div>
                     </td>
                   </tr>
@@ -39,7 +39,7 @@
       </div>
     </div>
   </div>
-  <div class="mt-2 ml-4">
+  <div class="mt-2 ml-4 mb-3">
     <%= paginate @brands %>
   </div>
 </div>

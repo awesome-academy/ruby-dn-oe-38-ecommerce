@@ -1,4 +1,4 @@
-class BrandsController < ApplicationController
+class Admin::BrandsController < AdminController
   before_action :load_brand, only: [:edit, :update]
 
   def index
@@ -14,7 +14,7 @@ class BrandsController < ApplicationController
     @brand = Brand.new brand_params
     if @brand.save
       flash[:success] = t "brands.brand_created"
-      redirect_to brands_path
+      redirect_to admin_brands_path
     else
       render :new
     end
@@ -25,7 +25,7 @@ class BrandsController < ApplicationController
   def update
     if @brand.update(brand_params)
       flash[:success] = t "brands.brand_updated"
-      redirect_to brands_path
+      redirect_to admin_brands_path
     else
       render :edit
     end
