@@ -5,6 +5,6 @@
   <td><%= product.size_name %></td>
   <td><%= product.describe %></td>
   <td><%= link_to t("product.show"), "#" %></td>
-  <td><%= link_to t("product.edit"), "#" %></td>
+  <td><%= link_to t("product.edit"), edit_admin_product_path(product) %></td>
   <td><%= link_to t("product.destroy"), "#" %></td>
 </tr>

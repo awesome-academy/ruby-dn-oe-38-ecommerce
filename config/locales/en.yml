@@ -117,3 +117,7 @@ en:
     brand: "Brand"
     size: "Size"
     image: "Picture"
+    update: "Update"
+    update_product: "Update Product"
+    update_success: "Update product information success"
+    product_not_found: "Product not found"
