@@ -4,8 +4,7 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by(email: params[:session][:email].downcase)
     if user&.authenticate(params[:session][:password])
-      log_in user
-      redirect_to is_admin? ? admin_home_path : root_path
+      valid_user user
     else
       flash.now[:danger] = t "sessions.login_fail"
       render :new

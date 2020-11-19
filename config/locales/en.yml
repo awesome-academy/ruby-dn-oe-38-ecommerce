@@ -80,6 +80,8 @@ en:
         account_management: "Account management"
   sessions:
     login_fail: "Email or password is incorrect"
+    new:
+      remember_me: "Remember me"
   static_pages:
     home:
       title: "Home"

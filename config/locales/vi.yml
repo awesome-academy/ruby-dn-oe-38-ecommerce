@@ -80,6 +80,8 @@ vi:
         account_management: "Quản lý tài khoản"
   sessions:
     login_fail: "Email hoặc mật khẩu không đúng"
+    new:
+      remember_me: "Lưu tài khoản"
   static_pages:
     home:
       title: "Trang Chủ"
