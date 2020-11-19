@@ -5,3 +5,8 @@ paging:
 brand:
   name:
     max_length: 20
+product:
+  limit_img: 500
+  accept_image: "image/jpeg,image/gif,image/png"
+  max_name: 50
+  max_price: 9
