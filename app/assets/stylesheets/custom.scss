@@ -100,5 +100,38 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  width:200px
+  width:207px
+}
+.quantity-input{
+  width: 50px;
+}
+.process-order{
+  border-left: 1px solid #94cb32;
+}
+.border-total{
+  border: 3px solid #94cb32;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.each-product{
+  border-bottom: 1px solid #94cb32;
+  height: 100px;
+  padding-top: 10px;
+}
+.money-cart{
+  font-size: 23px;
+}
+.button-order {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:245px
 }

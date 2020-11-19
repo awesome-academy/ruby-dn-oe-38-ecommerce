@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     get "/search" => "pages#search", as: "search_page"
     resources :brands, except: [:destroy, :show]
     resources :products, only: [:index, :show]
+    resources :order_details, only: [:create, :update, :destroy]
+    resource :carts, only: [:show]
     namespace :admin do
       get "/home", to: "static_pages#home"
       resources :brands, except: [:destroy, :show]

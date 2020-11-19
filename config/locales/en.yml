@@ -1,5 +1,9 @@
 en:
   controllers:
+    order_details_controller:
+      note_login: "Please log in"
+      exist: "Products already in the cart.
+        You can go to your cart to change the quantity you want to buy"
     pages_controller:
       empty: "Empty Field!"
     admin_controller:
@@ -53,6 +57,10 @@ en:
     add: "Add"
     edit: "Edit"
   layouts:
+    _carts_item:
+      update: "Update"
+      money: "Total: "
+      order: "Order"
     application:
       english: "English"
       vietnamese: "Vietnamese"

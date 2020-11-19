@@ -10,7 +10,11 @@
           <h3><%= @product.name %></h3>
           <p><b><%= t ".price" %>: </b><span><%= number_to_currency(@product.price) %></span></p>
           <p><%= t ".description" %>: <%= @product.describe %></p>
-          <%= link_to t(".cart"), "", class: "button-cart" %>
+          <%= form_for @order_detail, remote: true  do |f|%>
+            <%= f.hidden_field :product_id, value: @product.id %>
+            <%= f.number_field :quantity, value: 1, min: 1 %>
+            <%= f.submit t(".cart"), class: "button-cart" %>
+          <% end %>
         </div>
         <div class="clear"> </div>
         <div class="ml-5 mt-2 share" id="small-image">

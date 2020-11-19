@@ -7,6 +7,7 @@ class PagesController < ApplicationController
     else
       @count_results = Product.search_by_name(params[:search])
       @results = @count_results.page(params[:page]).per(@per_page)
+      @order_detail = current_order.order_details.new
     end
   end
 end
