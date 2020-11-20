@@ -5,12 +5,24 @@ vi:
     admin_controller:
       request_login: "Bạn chưa đăng nhập"
       not_have_access: "Bạn không có quyền truy cập"
+    products_controller:
+      product_not_found: "Không tìm thấy sản phẩm"
   pages:
     search:
       result: "Kết quả tìm kiếm của từ"
       cart: "Thêm vào giỏ hàng"
       photo: "Ảnh"
       content: "kết quả"
+  products:
+    index:
+      photo: "Ảnh"
+      cart: "Thêm vào giỏ hàng"
+      all_product: "Tất cả sản phẩm"
+    show:
+      cart: "Thêm vào giỏ hàng"
+      price: "Giá"
+      description: "Mô tả"
+      photo: "Ảnh"
   base:
     address: "Địa chỉ"
     phone: "Điện thoại"
@@ -123,3 +135,11 @@ vi:
     update_product: "Thay đổi thông tin sản phẩm"
     update_success: "Thay đổi thông tin sản phẩm thành công"
     product_not_found: "Không tìm thấy sản phẩm"
+  number:
+    currency:
+      format:
+        unit: " đ"
+        delimiter: ","
+        separator: "."
+        precision: 2
+        format: "%n%u"
