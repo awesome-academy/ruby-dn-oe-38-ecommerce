@@ -52,3 +52,12 @@ User.create!(name: "Nguyen Van C",
     phone: Faker::Number.leading_zero_number(digits: 10),
     role: 3)
 end
+
+users = User.order(:created_at).take(3)
+products = Product.order(:created_at).take(5)
+products.each do |product|
+  users.each do |user|
+    content = Faker::Lorem.paragraph
+    product.comments.create!(user_id: user.id, content: content)
+  end
+end

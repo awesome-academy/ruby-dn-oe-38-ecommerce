@@ -2,6 +2,8 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+$greent-light: #90FD4C;
+
 /* mixins, variables, etc. */
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -81,6 +83,8 @@
     font-weight: normal;
   }
 }
+
+/* product */
 .title_products{
   color: black;
   font-size: x-large;
@@ -101,4 +105,10 @@
   margin: 4px 2px;
   cursor: pointer;
   width:200px
+}
+
+/* comment product */
+.comment{
+  border-radius: 10px;
+  background-color: $greent-light;
 }

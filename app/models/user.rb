@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :comments, dependent: :destroy
   attr_accessor :remember_token
   enum role: {supper_admin: 1, admin: 2, customer: 3}
   has_secure_password
