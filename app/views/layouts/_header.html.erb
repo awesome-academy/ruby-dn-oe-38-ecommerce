@@ -6,7 +6,7 @@
         <div class="input-group">
           <%= search_field_tag :search, params[:search], placeholder: t(".s_holder"), class: "form-control" %>
           <div class="input-group-btn">
-            <%= button_tag t(".search"), :class => "btn btn-info glyphicon glyphicon-search",:name => nil %>
+            <%= button_tag t(".search"), :class => "btn btn-info",:name => nil %>
           </div>
         </div>
       <% end %>
@@ -26,7 +26,7 @@
               </li>
             </ul>
           </li>
-          <li><%= link_to t("base.cart"), "#" %></li>
+          <li class="cart-text"><%= render "layouts/cart_text" %></li>
         <% else %>
           <li><%= link_to t("base.signup"), "#" %></li>
           <li><%= link_to t("base.login"), login_path %></li>

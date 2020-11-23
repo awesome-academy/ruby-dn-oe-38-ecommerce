@@ -1,5 +1,9 @@
 vi:
   controllers:
+    order_details_controller:
+      note_login: "Bạn nên đăng nhập trước"
+      exist: "Sản phẩm đã có trong giỏ hàng.
+        Bạn có thể đến giỏ hàng của mình để thay đổi số lượng muốn mua"
     pages_controller:
       empty: "Không có nội dung!"
     admin_controller:
@@ -53,6 +57,10 @@ vi:
     add: "Thêm"
     edit: "Sửa"
   layouts:
+    _carts_item:
+      update: "Cập nhật"
+      money: "Thành tiền: "
+      order: "Đặt hàng"
     application:
       english: "Tiếng anh"
       vietnamese: "Tiếng việt"
