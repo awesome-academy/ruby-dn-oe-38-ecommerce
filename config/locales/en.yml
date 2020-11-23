@@ -69,6 +69,10 @@ en:
       logo: "logo"
       search: "Search"
       s_holder: "Search"
+    top:
+      samsung: "Tivi Sam Sung"
+      lg: "Tivi LG"
+      panasonic: "Tivi Panasonic"
     footer:
       info: "Our info"
       shop_address: "123 nguyen tat thanh, Da nang, Viet Nam"
@@ -104,7 +108,7 @@ en:
       remember_me: "Remember me"
   static_pages:
     home:
-      title: "Home"
+      new_products: "New products"
     about:
       title: "About"
     contact:

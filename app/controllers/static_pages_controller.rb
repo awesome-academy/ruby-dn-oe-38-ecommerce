@@ -1,5 +1,7 @@
 class StaticPagesController < ApplicationController
-  def home; end
+  def home
+    @new_products = Product.order_by_create.take(8)
+  end
 
   def about; end
 
