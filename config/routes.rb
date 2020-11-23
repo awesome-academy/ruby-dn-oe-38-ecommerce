@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
     get "/search" => "pages#search", as: "search_page"
+    get "/filter" => "pages#filter_via_brand"
     resources :brands, except: [:destroy, :show]
     resources :products, only: [:index, :show]
     resources :comments, only: [:create]
