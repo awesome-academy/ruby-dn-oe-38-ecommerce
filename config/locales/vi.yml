@@ -3,10 +3,12 @@ vi:
     pages_controller:
       empty: "Không có nội dung!"
     admin_controller:
-      request_login: "Bạn chưa đăng nhập"
       not_have_access: "Bạn không có quyền truy cập"
     products_controller:
       product_not_found: "Không tìm thấy sản phẩm"
+    comments_controller:
+      comment_created: "Bình luận thành công"
+      comment_fail: "Bình luận thất bại"
   pages:
     search:
       result: "Kết quả tìm kiếm của từ"
@@ -16,14 +18,18 @@ vi:
   products:
     index:
       photo: "Ảnh"
-      cart: "Thêm vào giỏ hàng"
       all_product: "Tất cả sản phẩm"
     show:
       cart: "Thêm vào giỏ hàng"
       price: "Giá"
       description: "Mô tả"
       photo: "Ảnh"
+      comment_here: "bình luận tại đây"
+      comments:
+        one: "%{count} bình luận"
+        other: "%{count} bình luận"
   base:
+    request_login: "Bạn chưa đăng nhập"
     address: "Địa chỉ"
     phone: "Điện thoại"
     cart: "Giỏ hàng"
@@ -37,6 +43,7 @@ vi:
     login: "Đăng nhập"
     logout: "Đăng xuất"
     cart: "Giỏ hàng"
+    add_cart: "Thêm vào giỏ hàng"
     product: "Sản phẩm"
     brand: "Nhãn hiệu"
     brands: "Nhãn hiệu"
@@ -52,6 +59,7 @@ vi:
     action: "Thao tác"
     add: "Thêm"
     edit: "Sửa"
+    comment: "Bình luận"
   layouts:
     application:
       english: "Tiếng anh"
@@ -112,7 +120,7 @@ vi:
         unit: "đ"
         delimiter: ","
         separator: "."
-        precision: 0
+        precision: 2
         format: "%u%n"
   product:
     title: "Sản Phẩm"
@@ -135,11 +143,7 @@ vi:
     update_product: "Thay đổi thông tin sản phẩm"
     update_success: "Thay đổi thông tin sản phẩm thành công"
     product_not_found: "Không tìm thấy sản phẩm"
-  number:
-    currency:
-      format:
-        unit: " đ"
-        delimiter: ","
-        separator: "."
-        precision: 2
-        format: "%n%u"
+  comments:
+    comment:
+      ago: " trước bởi "
+      reply: " trả lời "

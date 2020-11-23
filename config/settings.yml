@@ -1,7 +1,7 @@
 paging:
-  p_1: 1
-  p_10: 10
+  p_5: 5
   p_8: 8
+  p_10: 10
 brand:
   name:
     max_length: 20
@@ -10,3 +10,5 @@ product:
   accept_image: "image/jpeg,image/gif,image/png"
   max_name: 50
   max_price: 9
+comment:
+  max_content: 50

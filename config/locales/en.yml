@@ -3,10 +3,12 @@ en:
     pages_controller:
       empty: "Empty Field!"
     admin_controller:
-      request_login: "You are not logged in"
       not_have_access: "You do not have access"
     products_controller:
       product_not_found: "Product not found"
+    comments_controller:
+      comment_created: "Successful comment"
+      comment_fail: "Comment failed"
   pages:
     search:
       result: "Search results of words"
@@ -16,14 +18,18 @@ en:
   products:
     index:
       photo: "Photo"
-      cart: "Add to cart"
       all_product: "All products"
     show:
       cart: "Add to cart"
       price: "Price"
       description: "Description"
       photo: "Photo"
+      comment_here: "comment here..."
+      comments:
+        one: "%{count} comment"
+        other: "%{count} comments"
   base:
+    request_login: "You are not logged in"
     address: "Address"
     phone: "phone"
     cart: "Cart"
@@ -37,6 +43,7 @@ en:
     login: "Login"
     logout: "Logout"
     cart: "Cart"
+    add_cart: "Add to cart"
     product: "Product"
     brand: "Brand"
     brands: "Brands"
@@ -52,6 +59,7 @@ en:
     action: "Action"
     add: "Add"
     edit: "Edit"
+    comment: "Comment"
   layouts:
     application:
       english: "English"
@@ -135,3 +143,7 @@ en:
     update_product: "Update Product"
     update_success: "Update product information success"
     product_not_found: "Product not found"
+  comments:
+    comment:
+      ago: " ago by "
+      reply: " reply "

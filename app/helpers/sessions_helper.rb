@@ -46,4 +46,11 @@ module SessionsHelper
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
     redirect_to is_admin? ? admin_home_path : root_path
   end
+
+  def check_login
+    return if logged_in?
+
+    flash[:danger] = t "base.request_login"
+    redirect_to login_path
+  end
 end
