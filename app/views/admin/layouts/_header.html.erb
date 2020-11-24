@@ -36,8 +36,7 @@
       </a>
       <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
         aria-labelledby="userDropdown">
-        <%= link_to t("base.profile"), "#", class: "dropdown-item" %>
-        <%= link_to t("base.setting"), "#", class: "dropdown-item" %>
+        <%= link_to t("base.profile"), current_user, class: "dropdown-item" %>
         <div class="dropdown-divider"></div>
         <%= link_to t("base.logout"), logout_path, class: "dropdown-item", method: "delete" %>
       </div>
