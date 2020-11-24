@@ -4,7 +4,7 @@
     <div class="row">
       <% group.each do |product| %>
         <div class="grid_1_of_4 images_1_of_4 products-info">
-          <%= image_tag("", alt: t(".photo")) %>
+          <%= image_tag product.display_image, size: "220x170" if product.image.attached? %>
           <%= link_to product.name, product_path(product.id) %>
           <h3><%= number_to_currency(product.price) %></h3>
           <div class="mt-3">

@@ -3,7 +3,7 @@
   <div class="content mt-3">
     <div class="content-grids p-2">
       <div class="detalis-image">
-        <%= image_tag("", alt: t(".photo")) %>
+        <%= image_tag @product.display_image, size: "300x250" if @product.image.attached? %>
       </div>
       <div class="detalis-image-details">
         <div class="ml-5">

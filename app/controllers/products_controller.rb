@@ -3,7 +3,7 @@ class ProductsController < ApplicationController
 
   def index
     @per_page = Settings.paging.p_8
-    @products = Product.page(params[:page]).per(@per_page)
+    @products = Product.order_by_create.page(params[:page]).per(@per_page)
   end
 
   def show

@@ -69,6 +69,10 @@ vi:
       logo: "logo"
       search: "Tìm kiếm"
       s_holder: "Tìm kiếm"
+    top:
+      samsung: "Tivi SamSung"
+      lg: "Tivi LG"
+      panasonic: "Tivi Panasonic"
     footer:
       info: "Thông tin"
       shop_address: "123 Nguyễn Tất Thành, Đà Nẵng, Việt Nam"
@@ -104,7 +108,7 @@ vi:
       remember_me: "Lưu tài khoản"
   static_pages:
     home:
-      title: "Trang Chủ"
+      new_products: "Hàng mới về"
     about:
       title: "Giới thiệu"
     contact:
