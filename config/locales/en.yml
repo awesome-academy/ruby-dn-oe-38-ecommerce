@@ -154,3 +154,10 @@ en:
     comment:
       ago: " ago by "
       reply: " reply "
+  users:
+    user_not_found: "User not found"
+    refuse_action: "You do not have permission to perform this action!"
+    show:
+      your_info: "Your profile"
+      created_at: "Created at"
+      edit_profile: "Edit profile"

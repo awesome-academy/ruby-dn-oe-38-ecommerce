@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     resources :brands, except: [:destroy, :show]
     resources :products, only: [:index, :show]
     resources :comments, only: [:create]
+    resources :users, only: [:show]
     namespace :admin do
       get "/home", to: "static_pages#home"
       resources :brands, except: [:destroy, :show]

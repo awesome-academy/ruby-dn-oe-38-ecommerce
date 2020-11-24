@@ -20,7 +20,7 @@
               <%= t "base.account" %><b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-              <li><%= link_to t("base.profile"), "#" %></li>
+              <li><%= link_to t("base.profile"), current_user %></li>
               <li>
                 <%= link_to t("base.logout"), logout_path, method: "delete" %>
               </li>
